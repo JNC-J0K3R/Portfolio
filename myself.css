@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+#new-body {
+    background-color: white;
+}
+
+#myself {
+    margin-left:80px;
+}
+
+#birth-grid {
+    display: grid;
+    grid-template-columns: 600px 500px;
+}
+
+#birth-head h2 {
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 35px;
+}
+
+#new-body h1 {
+    font-family: 'Grechen Fuemen', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#baby {
+    height: 300px;
+    margin-left: 300px;
+    transition: 0.15s;
+}
+
+#birth-p {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#baby:hover {
+    box-shadow: 10px 10px 30px gray;
+}

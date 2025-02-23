@@ -1,0 +1,37 @@
+:root {
+    --clor: #222327;
+}
+
+#contact {
+    padding-top: 100px;
+    background-color: var(--clor);
+    grid-template-columns: 300px 300px 300px;
+    color: azure;
+}
+
+#contact h1 {
+    padding-left: 150px;
+}
+
+#contact-grid {
+    display: grid;
+    grid-template-columns: 300px 400px 300px;
+    padding-left: 200px;
+}
+
+#contact h4 {
+    font-weight: 200;
+}
+
+#contact h3 {
+    font-weight: 400;
+}
+
+#grid-2 h3, #grid-3 h3 {
+    font-weight: 200;
+}
+
+#grid-2 span, #grid-3 span {
+    font-weight: 400;
+}
+

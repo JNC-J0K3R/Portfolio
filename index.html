@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="navigator.css">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="myself.css ">
+        <link rel="stylesheet" href="proj.css">
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <div class="navigation">
+            <ul>
+                <li class="list active">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#myself">
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                        <span class="text">Myself</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="trophy-outline"></ion-icon></span>
+                        <span class="text">Projects</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">
+                        <span class="icon"><ion-icon name="call-outline"></ion-icon></span>
+                        <span class="text">Contact</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+        </div>
+
+        <div id="full-home">
+            <div id="home">
+                <div id="home-picture">
+                <img src="Images/home.JPG" alt="(Yes, that's me! Cool right?)" id="pic-home">
+                    <div id="hidden-note">
+                        <h1>Yukesh LS</h1>
+                        <p>Yes, that's me!! Cute, right??</p>  
+                </div>
+                </div>
+            </div>
+            <div id="home-text">
+                <div id="home-title">
+                    <h1>Yukesh LS</h1>
+                    <h4>
+                        Hello! I am a professional game developer who makes games for fun. If you have any 
+                        querries, I'll be glad to help. I charge $10000 per question, so make it worth 
+                        asking. (Jk) For real, just send me an email.
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <div id="new-body">
+
+            <div id="myself">
+                <div id="myself-heading"><br><br><br><br><br><br>
+                    <h1>About Me (My History)</h1><hr><br><br><br><br>
+                </div>
+
+                <div id="birth-grid">
+                    <div id="birth">
+                        <div id="birth-head">
+                            <h2>Birth : </h2>
+                        </div>
+                        <div id="birth-p">
+                            <p>I was born in Coimbatore on 12-18-2009 (18 December 2009) as the son of N. Lakshmikanth and L. Shylaja at _______________________ Hospital. Even thoughy I was born in Coimbatore, I travel from place to place; not like a nomad, but because of my father's job.
+                                Oh, here's a baby pic of me. My current age is 14 (I think). I am not supposed to mention these things, but why not? Let me fill you in. I guess these details are enough.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="birth-pic">
+                        <img src="Images/baby.JPG" id = "baby">
+                    </div>
+                </div>
+            </div><br><br><br><br>
+            <div id="proj-hr">
+               <h1 id="proj-head">My Projects: </h1><hr>
+            </div>
+            <div id="projects-grid">
+                <div id="memory-game">
+                    <div id="info-memory">
+                        <h1><a href="Big Memory Game/index.html" target="_blank">Memory Game</a></h1>
+                        <p>Memory Game is a game that the tests your memorisation skills. Each time, a new set of tiles would appear, and you have to choose the matching pairs.</p>
+                    </div>
+                    <div id="link-memory">
+                        <div id="memory-pic">
+                            <img src="Images/memory.png" >
+                        </div>
+                    </div>
+                </div>
+                <div id="super-mario">
+                    <div id="info-mario">
+                        <h1><a href="Mario Game/index.html">Super Mario</a></h1>
+                        <p>This is a remix of Super Mario Bros made &nbsp; by me. This game takes a while to load,&nbsp;&nbsp; but it's worth waiting.</p>
+                    </div>
+                    <div id="mario-pic">
+                        <img src="Images/mario.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact">
+                <h1>Contact</h1><br><hr><br><br>
+            <div id="contact-grid">
+                <div id="grid-1">
+                    <h3>My Phone: </h3> <h4>9487285158</h4><br>
+                    <h3>Mother's Phone: </h3> <h4>7012468125</h4><br>
+                    <h3>Father's Phone: </h3> <h4>8921437042</h4><br>
+                </div>
+                <div id="grid-2">
+                    <h3><span>Email: </span><a href="tryh4rdd.gg@gmail.com">tryh4rdd.gg@gmail.com</a></h3> 
+                    <h3><span>WhatsApp: </span><a href="9487285158">9487285158</a></h3> 
+                    <h3><span>Instagram: </span><a href="https://instagram.com/lakki300682">lakki300682</a></h3> 
+                    <h3><span>X: </span>-</h3> 
+                    <h3><span>Reddit (display): </span><a href="https://reddit.com/user/Upset_Ad3195">JNC-J0K3R</a></h3> 
+                    <h3><span>Reddit (username): </span><a href="https://reddit.com/user/Upset_Ad3195">Upset_Ad3195</a></h3> 
+                </div>
+                <div id="grid-3">
+                    <h3><span>YouTube: </span>-</h3>
+                    <h3><span>Availability: </span>Sunday 12:00 p.m. IST to 8:00 p.m. IST</h3>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <script>
+            const list = document.querySelectorAll(".list");
+
+            function activeLink() {
+                list.forEach((item) => item.classList.remove("active"));
+                this.classList.add("active");
+            }
+
+            list.forEach((item) => item.addEventListener("click", activeLink));
+        </script>
+    </body>
+</html>

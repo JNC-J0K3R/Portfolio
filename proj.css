@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+#projects-grid {
+    display: grid;
+    grid-template-columns: 650px 650px;
+    padding-left: 20px;
+}
+
+#memory-game, #super-mario {
+    display: grid;
+    grid-template-columns: 400px 200px;
+    padding-left: 30px;
+    border: 2px rgb(9, 33, 70) dashed;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+#info-memory p, #info-mario p {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#info-memory h1, #info-mario h1 {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+#info-memory, #info-mario {
+    background-color: rgb(9, 33, 70);
+    border-radius: 30px;
+    color: beige;
+    transition-duration: 0.5s;
+    z-index: 2;
+}
+
+#info-memory:hover, #info-mario:hover {
+    background-color: rgb(23, 69, 167);
+    box-shadow: 10px 10px 20px gray;
+}
+
+#memory-pic img, #mario-pic img{
+    margin-right: 100px;
+    width: 200px;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition-duration: 1s;
+}
+
+a:hover {
+    color: rgba(155, 38, 57, 0.541);
+}
+
+#super-mario img {
+    height: 200px;
+    margin-top: 12px;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+#proj-hr {
+    margin-left: 80px;
+}

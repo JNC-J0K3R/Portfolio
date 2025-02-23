@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+#full-home {
+    display: grid;
+    grid-template-columns: 700px 500px;
+}
+
+#home {
+    margin-top: 30px;
+    align-items: left;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#pic-home {
+    height: 400px;
+    border-radius: 30px;
+    transition-duration: 0.15s;
+    display: inline-block;
+}
+
+#pic-home:hover {
+    box-shadow: 5px 5px 20px gray;
+}
+
+#home-picture {
+    height: 400px;
+    display: inline-block;
+}
+
+#home-picture h1 {
+    color: rgb(228, 224, 224);
+}
+
+#home-picture p {
+    color: white;
+}
+
+#hidden-note {
+    background-color: rgba(77, 75, 75, 0.733);
+    width: 533px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    opacity: 0.8;
+    position: relative;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    bottom: 105px;
+    padding-top: 10px;
+    transition-duration: 1s;
+}
+
+#home-text {
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 80px;
+    transition-duration: 1s;
+    font-family: 'Poppins', sans-serif;
+}
+
+#home-title h1 {
+    font-size: 50px;
+    color: rgb(228, 224, 224);
+    transition: 0.15s;
+}
+
+#home-title h4 {
+    color: rgb(228, 224, 224);
+    margin-top: 30px;
+}
+
+#home-title {
+    background-color: rgba(25, 70, 153, 0.363);
+    padding: 80px;
+    border-radius: 50%;
+    transition-duration: 0.15s;
+}
+
+#home-title:hover {
+    box-shadow: 10px 10px 30px rgb(46, 86, 161);
+    font: darkcyan;
+    background-color:   darkcyan;
+}
