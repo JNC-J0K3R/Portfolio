@@ -39,7 +39,6 @@
 }
 
 #memory-pic img, #mario-pic img{
-    margin-right: 100px;
     width: 200px;
     z-index: 1;
 }
